@@ -1,10 +1,9 @@
 package com.company;
 
 public class KnowingVariables2 {
+
     public static void main(String[] args) {
         // Call all of our methods from here.
-
-        MyFavorite duc = new MyFavorite();
 
         knowingMyVariables2Test();
 
@@ -17,6 +16,7 @@ public class KnowingVariables2 {
         duc.setMyName("Duc Dang");
         duc.setFavColor("aqua-blue");
         duc.setFavFood("steak");
+
 
         System.out.println(duc.getFavFood());
         System.out.println(duc.getFavColor());
