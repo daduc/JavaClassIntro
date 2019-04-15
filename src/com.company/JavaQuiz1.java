@@ -1,6 +1,7 @@
 package com.company;
 
-public class JavaQuiz1 {
+public class JavaQuiz1 {}
+
     /*
     These are the answers
     For Basics Java Quiz 1
