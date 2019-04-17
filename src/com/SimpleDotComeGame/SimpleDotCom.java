@@ -1,4 +1,4 @@
-package com.SimpleDotComeGame.SimpleDotComGame;
+package com.SimpleDotComeGame;
 
 public class SimpleDotCom {
 
