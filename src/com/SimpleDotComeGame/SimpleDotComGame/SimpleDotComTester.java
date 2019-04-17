@@ -1,4 +1,4 @@
-package com.SimpleDotComGame;
+package com.SimpleDotComeGame.SimpleDotComGame;
 
     public class SimpleDotComTester {
     public static void main(String[] args)

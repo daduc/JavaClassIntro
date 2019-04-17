@@ -1,10 +1,6 @@
-package com.SimpleDotComGame;
+package com.SimpleDotComeGame.SimpleDotComGame;
 
-    import com.SimpleDotComGame.GameHelper;
-
-    import java.util.Scanner;
-
-    public class Game {
+public class Game {
         public static void main(String[] args) {
             int numOfGuesses = 0;
             GameHelper helper = new GameHelper();

@@ -1,4 +1,4 @@
-package com.SimpleDotComGame;
+package com.SimpleDotComeGame.SimpleDotComGame;
 
 
     import java.io.*;
