@@ -10,9 +10,8 @@ public class MyFavorite {
         return myName;
     }
 
-    public void setMyName(String myName) {
-        this.myName = myName;
-    }
+    public void setMyName(String myName) { this.myName = myName;}
+
 
     public String getFavFood() {
         return favFood;
