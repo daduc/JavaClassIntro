@@ -8,6 +8,8 @@ public class Car {
         car.startEngine();
         UsedCar car2 = new UsedCar();
         car2.color("Silver");
+        CarHelp car3 = new CarHelp();
+        car3.getName();
 
     }
 

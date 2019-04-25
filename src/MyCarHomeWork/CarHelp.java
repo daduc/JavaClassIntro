@@ -1,9 +1,18 @@
 package MyCarHomeWork;
 
 public class CarHelp {
-    public static void main(String[] args) {
-        MyCar car1 = new MyCar();
+    public void String(String name) {
+    }
 
+    public void setName(MyCar Lexus) {
+        this.car1 = car1;
+    }
+
+    MyCar car1 = new MyCar();
+
+    public MyCar getName() {
+        return car1;
     }
 
 }
+
