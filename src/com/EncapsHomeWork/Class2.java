@@ -1,41 +1,37 @@
 package com.EncapsHomeWork;
 
 public class Class2 {
-    private String ethnicity;
-    private int age;
-    private String favFood;
+    private String myEthnicity;
+    private int myAge;
+    private String myFavFood;
     private boolean male;
-    private int height;
+    private int myHeight;
 
-    public void setEthicity(String ethnicity) {
-        this.ethnicity = ethnicity;
+    public String getMyEthicity() {
+        return myEthnicity;
     }
 
-    public String getEthnicity() {
-        return ethnicity;
+    public void setMyEthicity(String myEthnicity) {
+        this.myEthnicity = myEthnicity;
     }
 
-    public void setEthnicity(String ethnicity) {
-        this.ethnicity = ethnicity;
+    public int getMyAge() {
+        return myAge;
     }
 
-    public int getAge() {
-        return age;
+    public void setMyAge(int myAge) {
+        this.myAge = myAge;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public String getMyfavFood() {
+        return myFavFood;
     }
 
-    public String getFavFood() {
-        return favFood;
+    public void setMyfavFood(String myfavFood) {
+        this.myFavFood = myfavFood;
     }
 
-    public void setFavFood(String favFood) {
-        this.favFood = favFood;
-    }
-
-    public boolean isMale() {
+    public boolean Male() {
         return male;
     }
 
@@ -43,11 +39,39 @@ public class Class2 {
         this.male = male;
     }
 
-    public int getHeight() {
-        return height;
+    public int getMyHeight() {
+        return myHeight;
     }
 
-    public void setHeight(int height) {
-        this.height = height;
+    public void setMyHeigt(int myheight) {
+        this.myHeight = myheight;
+    }
+
+    public static void main(String[] args) {
+        Class2 ethnicity = new Class2();
+        ethnicity.setMyEthicity("asian");
+        Class2 age = new Class2();
+        age.setMyAge(48);
+        Class2 favFood = new Class2();
+        favFood.setMyfavFood("steak");
+        Class2 male = new Class2();
+        male.Male();
+        Class2  Height = new Class2();
+        Height.setMyHeigt(66);
+        System.out.println(ethnicity.getMyEthicity());
+        System.out.println(age.getMyAge());
+        System.out.println(favFood.getMyfavFood());
+        System.out.println(male.Male());
+        System.out.println(Height.getMyHeight());
+
+
+
+
+
+
+
+
+
+
     }
 }
