@@ -5,6 +5,7 @@ public class AbstractFactoryMain {
         AbstractBikeFactory factory = new RoadBikeFactory();
         BikeFrameInterface frame = factory.createFrame();
         BikeSeatInterface seat = factory.createSeat();
+        BikePaintInterface color = factory.getPaintForBike();
         System.out.println(frame.getFrameParts());
         System.out.println(seat.GetSeatPart());
 
@@ -14,6 +15,7 @@ public class AbstractFactoryMain {
         AbstractBikeFactory factory1 = new MountainBikeFactory();
         BikeFrameInterface frame1 = factory1.createFrame();
         BikeSeatInterface seat1 = factory1.createSeat();
+        
         System.out.println(frame1.getFrameParts());
         System.out.println(seat1.GetSeatPart());
 
